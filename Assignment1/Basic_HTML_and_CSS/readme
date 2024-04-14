@@ -1,0 +1,24 @@
+Basic HTML and CSS Examples
+
+This folder contains HTML files along with corresponding CSS files that demonstrate basic HTML and CSS concepts.
+Files:
+
+    Basic_HTML_3.html: This HTML file includes a paragraph element styled with CSS from an external file. The text is center-aligned and has a blue color.
+
+    Basic_HTML_4.html: This HTML file demonstrates the use of CSS classes to style different elements. It includes headings styled using classes font_1 and font_2, and a paragraph styled with the class my-style.
+
+    Basic_HTML_5.html: This HTML file showcases the use of CSS classes to style paragraph elements. It includes a paragraph styled with the class p1, which sets the text color, background color, font size, alignment, padding, and text shadow.
+
+    HTML_Lists.html: This HTML file illustrates the use of CSS to style unordered and ordered lists. The unordered list uses square bullets, and the ordered list uses lower roman numerals.
+
+    HTML_Table.html: This HTML file demonstrates the use of CSS to style tables. It includes a simple table with headers and data cells styled for better visual presentation.
+
+CSS Files:
+
+    Basic_CSS_1.css: This CSS file contains styles for center-aligning paragraphs and setting their text color to blue.
+
+    Basic_CSS_2.css: This CSS file contains styles for paragraphs with the class p1, including text color, background color, font size, alignment, padding, and text shadow.
+
+    CSS_Lists.css: This CSS file contains styles for unordered and ordered lists, setting list style types to square bullets and lower roman numerals, respectively.
+
+    CSS_Table.css: This CSS file contains styles for tables, including background color, text color, border-collapse, and hover effect for rows.
