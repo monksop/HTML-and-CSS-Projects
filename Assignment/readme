@@ -1,0 +1,14 @@
+Basic HTML Website
+
+This repository contains three HTML files, each representing a basic webpage. These webpages demonstrate fundamental HTML elements, including text, images, links, navigation menus, headings, paragraphs, blockquotes, and footers. Additionally, the webpages utilize CSS for styling and include links to external resources, such as images and videos.
+File Descriptions:
+
+    assignment.html: This HTML file serves as the homepage of the website. It includes a navigation menu linking to other pages, a main content section with headings, paragraphs, an image, and links to internal and external resources. The footer provides contact information and copyright details.
+
+    dog.html: This HTML file showcases an image of a dog. It includes a navigation menu, a heading introducing the image, and the image itself. Similar to the homepage, it also contains a footer with contact information and copyright details.
+
+    dog_video.html: This HTML file features a video of a dog. It includes a navigation menu, a link to an external video, and an embedded YouTube video. Again, it includes a footer with contact information and copyright details.
+
+Image Directory:
+
+The repository also contains an "images" directory, which stores image files used in the HTML files.
