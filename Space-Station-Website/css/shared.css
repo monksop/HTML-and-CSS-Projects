@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute; 
+    width: 100%; 
+    top: 30%; 
+    left: 0;
+    transform: translateY(-50%); 
+    z-index: 2; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+.fade-section {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid white; 
+    padding: 30px; 
+}
+
+.fade-text {
+    opacity: 0; 
+    animation: fadeIn 7s forwards; 
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-bottom: 2px solid #fff;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+}
+
+.photo img {
+    width: 100%;
+    height: auto; 
+    max-width: 100%; 
+    transition: transform 0.3s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+.photo:hover .overlay {
+    opacity: 1;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.reservations {
+    background-color: #111; 
+    color: #fff; 
+    padding: 30px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.reservations h2 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+}
+
+.reservations p {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+}
+
+.reservation-form {
+    margin-bottom: 20px; 
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper input[type="text"],
+.input-wrapper input[type="email"],
+.input-wrapper input[type="tel"] {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    background-color: #333; 
+    color: #fff;
+    border-radius: 5px;
+}
+
+.input-wrapper input[type="text"]:focus,
+.input-wrapper input[type="email"]:focus,
+.input-wrapper input[type="tel"]:focus {
+    outline: none; 
+}
+
+.submit-btn {
+    padding: 10px 20px; 
+    background-color: #00bcd4; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.submit-btn:hover {
+    background-color: #008ba3;
+}
+
+.terms {
+    font-size: 1rem;
+}
+
+.terms a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
