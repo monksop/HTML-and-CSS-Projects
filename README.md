@@ -1,6 +1,6 @@
-# HTML-and-CSS-Projects
+# BASIC HTML-and-CSS-Projects
 
-Project Showcase
+BASIC HTML and CSS Projects
 
 This repository contains multiple web development projects showcasing various skills and techniques in HTML, CSS, and Bootstrap. Each project demonstrates different features and achievements, summarized below:
 
