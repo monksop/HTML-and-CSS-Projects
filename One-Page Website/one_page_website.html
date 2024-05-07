@@ -33,15 +33,23 @@
     <section id="pictures">
         <div class="container">
             <h2>Technology in Pictures</h2>
-            <img src="images/1.jpg" alt="Technology">
-            <img src="images/2.jpg" alt="Technology">
-            <img src="images/3.jpg" alt="Technology">
-            <img src="images/4.jpg" alt="Technology">
-            <img src="images/5.jpeg" alt="Technology">
-            <img src="images/6.jpeg" alt="Technology">
+            <div class="gallery">
+                <img src="images/1.jpg" alt="Technology" class="lightbox-img">
+                <img src="images/2.jpg" alt="Technology" class="lightbox-img">
+                <img src="images/3.jpg" alt="Technology" class="lightbox-img">
+                <img src="images/4.jpg" alt="Technology" class="lightbox-img">
+                <img src="images/5.jpeg" alt="Technology" class="lightbox-img">
+                <img src="images/6.jpeg" alt="Technology" class="lightbox-img">
+            </div>
             <p style="text-transform:uppercase;">Stay updated with visual representations of cutting-edge technology.</p>
         </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
 
     <section id="video">
         <div class="container">
@@ -69,6 +77,9 @@
         </div>
     </footer>
 
+
+
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
